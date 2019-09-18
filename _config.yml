@@ -2,19 +2,19 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
+title: Artificial Physics
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Achuta Kadambi
   pic: 1
-  position: Lead Designer
+  position: Assistant Professor, Electrical and Computer Engineering Department
   social:
-    - title: twitter
-      url: #
+    - title: Email
+      url: mailto:achuta@ee.ucla.edu
     - title: facebook
       url: #
     - title: stack-overflow

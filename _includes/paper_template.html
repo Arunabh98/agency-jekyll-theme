@@ -1,0 +1,129 @@
+
+<div class="background-wrapper" class ="img-fluid" style="background-image: url(&quot;{{Teaser.imageBackgroundURL}}&quot;); height: {{Teaser.imageHeight}}px;"></div>
+  <div class="container">
+      <div class="article-meta col-md-8" style="margin: auto;">
+          <div class="row mb-3 pt-5">
+                  <div class="heading center px-2" style="font-size: 38px;">{{Title}}</div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <p>
+                          {{#each Authors}}<a href="{{Link}}">{{Name}}</a> <sup>{{AssociationNumber}}</sup> &nbsp;{{/each}}
+                      </p>
+                      <p>
+                          {{#AssociationsList Associations}}<a href="{{Link}}">{{Name}}</a> <sup>{{Number}}</sup> &nbsp;{{/AssociationsList}}
+                      </p>
+                      <a href="{{PublishSource.Link}}">{{PublishSource.Name}}</a>
+                  </div>
+
+          </div>
+          <hr style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
+          <img src="{{Teaser.imageURL}}" class="img-fluid" style="text-align: center; width: 100%;">
+          <div class="row justify-content-center mt-3 pb-5">
+            <div class="col-md-10">
+                <!-- Teaser (custom HTML) -->
+                {{#with Teaser}}
+                    {{#RenderTeaser rawHTML}}{{/RenderTeaser}}
+                {{/with}}
+            </div>
+
+        </div>
+  </div>
+
+
+
+  <!-- Abstract -->
+  <div class="row justify-content-center mt-5">
+      <div class="col-md-12">
+          <div class="heading">Abstract</div>
+          {{Abstract}}
+      </div>
+
+  </div>
+
+      <div class="container col-md-12">
+          <!-- Files -->
+          <div class="row mt-3 heading">
+                  Files
+              </div>
+              <div class="row body">
+                  <ul>
+                      {{#each Files}}
+                          <li>
+                              {{Name}} {{#each Links}}(<a href="{{Link}}">{{Label}}</a>) {{/each}}
+                          </li>
+                      {{/each}}
+                  </ul>
+          </div>
+
+          <!-- Citation -->
+          <div class="row heading mt-3">
+                  Citation
+              </div>
+              <div class="row body">
+                {{#RenderTeaser Bibtex}}{{/RenderTeaser}}
+              </div>
+
+          <!-- Press -->
+          {{#if Press}}
+          <div class="row mt-3 heading">
+              Press
+          </div>
+          <div class="row">
+              <ul>
+                  {{#each Press}}
+                      <li>
+                          <a href="{{Link}}" class="body">{{Name}}</a>
+                      </li>
+                  {{/each}}
+              </ul>
+          </div>
+          {{/if}}
+
+          
+          <!-- Contact -->
+          <div class="row mt-3 heading">
+                  Contact
+          </div>
+          <div class="row mb-3 body">
+              {{#RenderTeaser Contacts}}{{/RenderTeaser}}
+          </div>
+          
+          {{#if FAQ}}
+          <!-- FAQ -->
+          <div class="row heading">
+                  Frequently Asked Questions (FAQ)
+          </div>
+          {{#each FAQ}}
+              <div class="row body bold mt-3">
+                  {{Question}}
+              </div>
+              <div class="row body">
+                  {{Answer}}
+              </div>
+          {{/each}}
+          {{/if}}
+            
+          {{#if Photos}}
+          <!-- Media -->
+          <div class="row heading mt-3">
+                  Media
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-md-6">
+                  {{#each Photos}}
+                  <img src="{{Link}}" class="img-fluid" alt="">
+                      <div class="row my-3">
+                          <p class="caption" >{{Caption}}</p>
+                      </div>
+                  {{/each}}
+              </div>
+          </div>
+          {{/if}}
+
+
+      </div>
+
+  <br>
+</div>
