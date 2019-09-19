@@ -4,8 +4,8 @@ subtitle: ICLR 2020
 layout: default
 modal-id: 1
 date: 2019-09-17
-img: ball_traj.jpg
-thumbnail: ball_traj.jpg
+img: iclr.jpg
+thumbnail: iclr.jpg
 alt: image-alt
 project-date: September 2019
 client: Yunhao Ba, Guangyuan Zhao
