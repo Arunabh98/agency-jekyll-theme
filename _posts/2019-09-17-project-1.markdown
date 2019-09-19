@@ -1,0 +1,15 @@
+---
+title: Inexact Physical Priors Meet Neural Networks
+subtitle: ICLR 2020
+layout: default
+modal-id: 1
+date: 2019-09-17
+img: ball_traj.jpg
+thumbnail: ball_traj.jpg
+alt: image-alt
+project-date: September 2019
+client: Yunhao Ba, Guangyuan Zhao
+category: ICLR
+description: The emerging data-driven methods offer an alternative solution to the conventional physical reasoning by learning from high-fidelity training data. However, these methods usually lack interpretiability and require massive amounts of data in general. Hence, different approaches to incorporating prior knowledge within data-driven frameworks have been proposed to make use of both data and physics. While these approaches are successful, we demonstrate that their network architecture matters- most of the physics-based learning architectures are task specific, and can not adapt to diverse physical circumstances easily. As such, we propose the physics-based neural architecture search (PhysicsNAS) that is generalizable to all physical environments. PhysicsNAS learns both the network architectures and the associated weights with physics-inspired candidate modules, and opens the new avenue for physics-based learning. It is an important step towards flexible formulations of physics-based learning architectures for specific goals.
+
+---

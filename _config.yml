@@ -2,7 +2,7 @@ url: https://arunabh98.github.io
 baseurl: /physics_learning/
 
 # Site settings
-title: Artificial Physics
+title: Physics Learning
 email: arunabhghosh98@gmail.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -11,36 +11,15 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
 - name: Achuta Kadambi
   pic: 1
-  position: Assistant Professor, Electrical and Computer Engineering Department
-  social:
-    - title: Email
-      url: mailto:achuta@ee.ucla.edu
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  position: Assistant Professor, ECE Department, UCLA
 
-- name: Larry Parker
+- name: Yunhao Ba
   pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  position: Ph.D Candidate, ECE Department, UCLA
 
-- name: Diana Petersen
+- name: Guangyuan Zhao
   pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  position: Ph.D Candidate, ECE Department, UCLA
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
