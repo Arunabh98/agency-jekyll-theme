@@ -1,6 +1,6 @@
 ---
 title: Inexact Physical Priors Meet Neural Networks
-subtitle: ICLR 2020
+subtitle: Submitted to ICLR 2020
 layout: default
 modal-id: 1
 date: 2019-09-17
